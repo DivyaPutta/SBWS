@@ -15,7 +15,7 @@ public class BeanConfig {
 		DriverManagerDataSource dataSource =new DriverManagerDataSource();
 		dataSource.setUrl("jdbc:mysql://localhost:3306/userdb");
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setPassword("root");
+		dataSource.setPassword("root@123");
 		dataSource.setUsername("root");
 	    return dataSource;
 	}
